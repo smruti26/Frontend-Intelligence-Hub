@@ -90,7 +90,7 @@ const PrepQAPanel: React.FC = memo(() => {
       </div>
 
       {/* Q&A grid — populated by bridge.js renderQA() */}
-      <div id="qa-grid" />
+      <div id="qa-grid"  className='qa-grid'/>
     </>
   );
 });
