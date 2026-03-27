@@ -14,7 +14,8 @@
     "type-check": "tsc --noEmit",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "test:watch": "jest --watchAll"
+    "test:watch": "jest --watchAll",
+    "vercel-build": "NODE_ENV=production webpack --config webpack/webpack.prod.js"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -52,5 +53,10 @@
     "webpack-cli": "^5.1.0",
     "webpack-dev-server": "^5.2.0",
     "webpack-merge": "^6.0.0"
-  }
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
