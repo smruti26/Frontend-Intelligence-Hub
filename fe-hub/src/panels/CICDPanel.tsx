@@ -22,7 +22,7 @@ const CICDPanel: React.FC = () => {
 </p>
 
 </div>
-<div className='be-tech-grid'>
+<div>
   <div className="be-tech-card active" onClick={(e) => { try { (window as any).cdSelect('docker', e.currentTarget) } catch(_) {} }} style={{"--be-accent": "#2496ed"}}>
     <div className="be-icon" style={{background: "#dbeafe"}}>
       🐳
